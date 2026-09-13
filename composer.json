@@ -1,0 +1,17 @@
+{
+    "name": "splinter/access",
+    "description": "Framework-agnostic access rule authorization for the Splinter framework",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "splinter/framework": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Splinter\\Access\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
